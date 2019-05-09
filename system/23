@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aderby <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/08 11:56:36 by aderby            #+#    #+#              #
+#    Updated: 2019/05/08 11:57:55 by aderby           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#su will switch users. It is often used to switch to root, but after you
+# create a new user, you get use "su <user>" to switch. You can add a password
+# using "passwd <user>" as long as you are root, or that user.

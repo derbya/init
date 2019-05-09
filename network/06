@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aderby <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/02 15:40:38 by aderby            #+#    #+#              #
+#    Updated: 2019/05/02 19:30:38 by aderby           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#/etc/resolv.conf
+
+#I found this using grep, and searching for the text "10.51.1.253" in every file
+#in the NFS. I matched it twice, once in a binary, and once in /etc/resolv.conf, so
+#I am assuming the resolv.conf is the correct one.
+
+#resolv.conf is a file, usually created by the network admin, used to configure a 
+#systems DNS resolver to translate a domaine name to an IP address.

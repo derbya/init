@@ -1,0 +1,29 @@
+if [ $# -eq 0 ]
+then
+	echo "You must supply a user name as an argument"
+	exit
+fi
+NAME=$1
+
+check_function(){
+	local result=$(getent passwd | egrep ':[0-9]{4}:'\
+		| grep $NAME | awk -F ':' '{print$1}')
+	echo $result
+}
+
+CORR="$(check_function)"
+
+if [ "$NAME" = "$CORR" ]; then 
+	echo -n "Do you really want to delete user $NAME? [y/n]"
+	read ANSWER
+	if [ "y" = "$ANSWER" ]
+	then
+		userdel -r --force $NAME 2>/dev/null
+	elif [ "y" != "$ANSWER" ]
+	then
+		echo "User $NAME will not be deleted."
+		exit
+	fi
+elif [ -z $CORR ]; then
+	echo "$NAME is either not a human user or does not exist."
+fi

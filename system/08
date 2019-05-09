@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aderby <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/07 18:23:51 by aderby            #+#    #+#              #
+#    Updated: 2019/05/07 18:25:54 by aderby           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#the list of keys for authorized accounts can be found in the file
+#/etc/ssh/sshd_config
+#
+#The actual keys themselves can be found in the same /etc/ssh directory

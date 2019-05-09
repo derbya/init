@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aderby <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/02 19:19:30 by aderby            #+#    #+#              #
+#    Updated: 2019/05/02 19:30:56 by aderby           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+whois slash16.org
+
+#whois will find the providerm registrar, and other details for the site.
+#The provider appears to be AWS.

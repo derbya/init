@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    19                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aderby <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/08 00:12:30 by aderby            #+#    #+#              #
+#    Updated: 2019/05/08 00:16:14 by aderby           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+systemctl list-units --type service --all
+
+# This is to list all service, active and inactive that have been loaded
+# at boot. They are called units or systemd units
